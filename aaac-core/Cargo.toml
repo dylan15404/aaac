@@ -1,0 +1,20 @@
+[package]
+name = "aaac-core"
+version = "0.1.0"
+edition = "2021"
+
+# This is the main executable, so we don't need 'crate-type' here.
+
+[dependencies]
+# 1. The dynamic loading library required to open .so files
+libloading = "0.8"
+
+# 2. Your local interface crate (The contract)
+# We use 'path' to point to the folder relative to this file.
+aaac-interface = { path = "../aaac-interface" }
+
+# OPTIONAL: Useful crates you will likely need soon:
+# serde = { version = "1.0", features = ["derive"] } # For serialization
+# toml = "0.8"                                       # For reading config files
+# log = "0.4"                                        # Standard logging facade
+# simple_logger = "4.0"                              # Basic logger implementation

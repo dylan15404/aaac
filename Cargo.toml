@@ -1,0 +1,10 @@
+# aaac-l/Cargo.toml
+[workspace]
+resolver = "3"
+members = [
+    "aaac-interface",
+    "aaac-core",
+    "modules/aaac-filescan",
+    "modules/aaac-dummymodule",
+    # ... list all your module directories
+]
