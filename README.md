@@ -10,7 +10,7 @@
 
 * base features
   - 🟩 modular structure with dynamic loading of module libraries
-  - 🟥 control via config file
+  - 🟩 control via config file
 
 * tier 1 modules
   - 🟥 TPM2 EK + PCR0–10 quote + nonce
