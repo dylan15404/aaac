@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">a 'safe' modular linux anticheat solution written in rust</h4>
-# 
+
 ## feature progress
 
 * base features
