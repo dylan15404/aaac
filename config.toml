@@ -1,0 +1,12 @@
+[system]
+update_ms = 1000
+
+[[modules]]
+name = "Dummy Module"
+filename = "libaaac_dummymodule.so"
+enabled = true
+
+[[modules]]
+name = "Future Scanner"
+filename = "libaaac_filescan.so"
+enabled = false
